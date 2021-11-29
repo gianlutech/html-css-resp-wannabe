@@ -6,7 +6,30 @@
         
     }
     #lezioni .row>.left,
-    #lezioni .row>.right {
+    #lezioni .row>.right  {
+    width: auto;
+    }
+    #steps {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right  {
+    width: auto;
+    }
+    #why {
+        background-color: #F2F2CD;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        width: auto;
+      }
+
     
-}
 }
