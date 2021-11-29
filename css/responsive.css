@@ -1,0 +1,12 @@
+@media screen and (max-width: 420px){
+    #lezioni {
+        background-color: #F2F2CD;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    
+}
+}
